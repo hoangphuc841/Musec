@@ -1,0 +1,4 @@
+rootProject.name = 'Musec'
+
+include 'musec-server'
+include 'musec-client'
