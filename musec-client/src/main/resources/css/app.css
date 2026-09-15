@@ -1,0 +1,143 @@
+/* 
+   Premium Dark Theme for Musec
+   Inspired by Spotify and modern glassmorphism 
+*/
+
+.root {
+    -fx-background-color: #121212;
+    -fx-font-family: 'Inter', 'Segoe UI', sans-serif;
+    -fx-text-fill: #ffffff;
+}
+
+/* Typography */
+.label {
+    -fx-text-fill: #b3b3b3;
+}
+
+.logo-text {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+}
+
+.welcome-text {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+}
+
+.track-title {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+}
+
+.track-artist {
+    -fx-font-size: 12px;
+    -fx-text-fill: #b3b3b3;
+}
+
+.time-text {
+    -fx-font-size: 11px;
+    -fx-text-fill: #b3b3b3;
+}
+
+.icon-text {
+    -fx-text-fill: #b3b3b3;
+    -fx-font-size: 14px;
+}
+
+/* Sidebar */
+.sidebar {
+    -fx-background-color: #000000;
+    -fx-min-width: 240px;
+    -fx-max-width: 240px;
+}
+
+.sidebar-separator {
+    -fx-padding: 10px 0;
+}
+
+.sidebar-separator .line {
+    -fx-border-color: #282828;
+    -fx-border-width: 1 0 0 0;
+}
+
+.sidebar-btn {
+    -fx-background-color: transparent;
+    -fx-text-fill: #b3b3b3;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 10px 15px;
+    -fx-cursor: hand;
+    -fx-max-width: Infinity;
+}
+
+.sidebar-btn:hover {
+    -fx-text-fill: #ffffff;
+}
+
+/* Main Content Area */
+.main-content {
+    -fx-background-color: linear-gradient(to bottom, #2a2a2a, #121212);
+}
+
+/* Playback Bar */
+.playback-bar {
+    -fx-background-color: #181818;
+    -fx-border-color: #282828;
+    -fx-border-width: 1 0 0 0;
+    -fx-min-height: 90px;
+    -fx-max-height: 90px;
+}
+
+/* Playback Controls */
+.control-btn {
+    -fx-background-color: transparent;
+    -fx-text-fill: #b3b3b3;
+    -fx-font-size: 16px;
+    -fx-cursor: hand;
+}
+
+.control-btn:hover {
+    -fx-text-fill: #ffffff;
+}
+
+.control-btn-main {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+    -fx-font-size: 16px;
+    -fx-background-radius: 50%;
+    -fx-min-width: 32px;
+    -fx-min-height: 32px;
+    -fx-cursor: hand;
+}
+
+.control-btn-main:hover {
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+/* Sliders */
+.slider .track {
+    -fx-background-color: #535353;
+    -fx-background-radius: 2px;
+    -fx-pref-height: 4px;
+}
+
+.slider .thumb {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 50%;
+    -fx-pref-width: 12px;
+    -fx-pref-height: 12px;
+    -fx-opacity: 0; /* Hide thumb until hover */
+}
+
+.slider:hover .thumb {
+    -fx-opacity: 1;
+}
+
+.slider:hover .track {
+    -fx-background-color: #1db954; /* Spotify green accent */
+}
